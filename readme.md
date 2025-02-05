@@ -11,11 +11,11 @@ Before running the tests, make sure the machine is set up with the following req
 ## 🚀 Setup Steps
 
 ### 1️⃣ Clone the Repository
-If you don’t have the project on your machine yet, clone the repository:
+If you don’t have the project on your machine yet, clone the repository and access the project folder:
 ```bash
   git clone https://github.com/SarahToscano/saucedemo.git
+  cd saucedemo
 ```
-
 ### 2️⃣ Install Dependencies
 To install the project dependencies, run:
 ```bash
@@ -23,7 +23,16 @@ To install the project dependencies, run:
 ```
 > This will install all necessary libraries and tools to run the tests.
 
-### 3️⃣ Run the Tests
+### 3️⃣ Modify the browser path in Cypress Config
+Edit the file cypress.config.js and custom the path variable (line 15) according to the currently browser path on your machine:
+
+Example:
+`path: 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'`
+
+> The default browser used on this project it is the Google Chrome at this location:
+`path: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'`
+
+### 4️⃣ Run the Tests
 
 #### 🔹 Run Tests in Headless Mode
 If you want to run the tests without opening the graphical interface:
@@ -32,7 +41,7 @@ If you want to run the tests without opening the graphical interface:
 ```
 This will execute all tests in Chrome in an automated manner.
 
-### 4️⃣ Project Structure
+### 5️⃣ Project Structure
 ```
 /cypress
   ├── /fixtures       # Test data
