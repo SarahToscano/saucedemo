@@ -1,0 +1,5 @@
+{
+    "lastNameRequired": "Error: Last Name is required",
+    "FirstNameRequired": "Error: First Name is required",
+    "PostalCodeRequired": "Error: Postal Code is required"
+}

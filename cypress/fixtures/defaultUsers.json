@@ -1,0 +1,22 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "loginExpectedResult": "successful"
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "loginExpectedResult": "successful"
+  },
+  {
+    "username": "error_user",
+    "password": "secret_sauce",
+    "loginExpectedResult": "successful"
+  },
+  {
+    "username": "visual_user",
+    "password": "secret_sauce",
+    "loginExpectedResult": "successful"
+  }
+]
