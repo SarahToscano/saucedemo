@@ -13,14 +13,13 @@ Before running the tests, make sure the machine is set up with the following req
 ### 1️⃣ Clone the Repository
 If you don’t have the project on your machine yet, clone the repository:
 ```bash
-  git clone https://github.com/your-user/your-repository.git
-  cd your-repository
+  git clone https://github.com/SarahToscano/saucedemo.git
 ```
 
 ### 2️⃣ Install Dependencies
 To install the project dependencies, run:
 ```bash
-  npm install
+  npm install cypress --save-dev
 ```
 > This will install all necessary libraries and tools to run the tests.
 
